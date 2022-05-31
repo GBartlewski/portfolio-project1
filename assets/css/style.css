@@ -1,6 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Titillium Web, sans-serif;
     color: #606
+}
+
+h1 {
+    float: left;
+    font-size: 300%;
+    margin-top: 20px;
+}
+
+#navigation {
+    float: right;
+    text-decoration: none;
+    font-size: 120%;
+    list-style-type: none;
+}
+
+#navigation li {
+    list-style-type: none;
+    margin-right: 40px;
+    float: right;
+    padding-top: 40px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
 }
