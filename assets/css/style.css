@@ -8,7 +8,8 @@
 
 body {
     font-family: Titillium Web, sans-serif;
-    color: #606
+    color: #fff;
+    background-color: #26734d;
 }
 
 h1 {
@@ -19,6 +20,11 @@ h1 {
     margin-left: 10px;
     font-weight: 600;
     letter-spacing: 3px;
+    color: #fff;
+}
+
+h1:hover {
+    border-bottom: 2px solid #fff;
 }
 
 #navigation {
@@ -40,7 +46,7 @@ h1 {
 }
 
 #navigation a:hover {
-    border-radius: 1px solid #606;
+    border-bottom: 2px solid #fff;
 }
 
 #group-image {
