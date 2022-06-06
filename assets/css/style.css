@@ -90,3 +90,9 @@ footer {
     margin: 1%;
     padding: 10px;
 }
+
+h2 {
+    float: left;
+    margin-left: 15px;
+    text-align: left;
+}
