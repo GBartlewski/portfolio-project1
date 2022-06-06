@@ -51,7 +51,7 @@ h1:hover {
 
 #group-image {
     width: 66%;
-    height: 500px;
+    height: 485px;
     float: left;
     margin-left: 10px;
 }
@@ -67,17 +67,26 @@ h1:hover {
 
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-left: 10px;
+}
+
 .social-links {
     text-align: center;
-    
+    font-size: 150%;
 }
 
 .social-links li {
     list-style-type: none;
     color: #fff;
-    display: inline;
+    display: inline-block;
 }
 
 .social-links i {
     color: #fff;
+    margin: 1%;
+    padding: 10px;
 }
