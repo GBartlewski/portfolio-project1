@@ -136,13 +136,45 @@ th, td {
 }
 
 .joinus-section {
-
+    clear: left;
 }
 
 .joinus-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
 
+.joinus-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.form-text {
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 .joinus-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
 
+.joinus-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
 }
