@@ -140,13 +140,14 @@ th, td {
 }
 
 .joinus-form {
-    margin: 150px 10% 0 0;
+    margin: 100px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
+    max-width: 500px;
+    left: 30%;
+    position: fixed;
     padding: 30px;
+    font-size: 130%;
 }
 
 .joinus-form > h2 {
@@ -155,12 +156,12 @@ th, td {
 }
 
 .form-text {
-    color: #fafafa;
+    color: #000;
     width: 100%;
     height: 25px;
-    margin: 5px 0 20px;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+    margin: 10px 0 30px;
+    border: 2px solid #000;
+    border-radius: 5px;
 }
 
 .joinus-button {
@@ -169,12 +170,12 @@ th, td {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #9932cc;
     color: #fafafa;
     display: block;
 }
 
 .joinus-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+    background-color: #000;
+    color: #9932cc;
 }
