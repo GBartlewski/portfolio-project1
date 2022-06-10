@@ -66,11 +66,12 @@ h1:hover {
     font-weight: 400;
     margin-left: 15px;
     margin-top: 120px;
-
+    text-align: right;
 }
 
 footer {
     position: absolute;
+    clear: left;
     bottom: 0;
     text-align: center;
     padding-left: 10px;
@@ -144,7 +145,7 @@ th, td {
 .joinus-form {
     margin: 100px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: #556B2F;
     max-width: 500px;
     left: 30%;
     position: fixed;
@@ -180,4 +181,99 @@ th, td {
 .joinus-button:hover {
     background-color: #000;
     color: #9932cc;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    #navigation {
+        clear: left;
+        float: left;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+
+    #group-image {
+        height: 300px;
+        width: 50%;
+        clear: left;
+        margin-top: 100px;
+        left: 50%;
+    }
+
+    #opener p {
+        right: 10%;
+        position: absolute;
+        width: 33%;
+        top: 20%;
+    }
+
+    #friends-image {
+        height: 300px;
+        width: 40%;
+        clear: left;
+        margin-top: 100px;
+        left: 50%;
+    }
+
+    .book-info {
+        left: 50%;
+        clear: left;
+        position: absolute;
+        bottom: 5%;
+    }
+
+    .table-info {
+        font-size: 80%;
+    }
+
+    .joinus-form {
+        height: 60%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .table-info {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #opener p {
+        font-size: 80%;
+    }
+
+    .table-style {
+        font-size: 50%;
+        max-height: 30%;
+        max-width: 100%;
+    }
+
+    .joinus-form {
+        height: 40%;
+        position: relative;
+        max-width: 300px;
+        max-height: 420px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        font-size: 60%;
+    }
+
+    .book-info {
+        font-size: 70%;
+        max-width: 200px;
+    }
+
+    .joinus-form {
+        max-width: 200px;
+    }
+
+    .joinus-button {
+        margin-top: 10px;
+        border-radius: 1px;
+        padding: 7px 16px 7px 16px;
+    }
 }
