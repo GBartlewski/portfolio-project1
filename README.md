@@ -54,8 +54,29 @@ add Gallery page, showcasing images from the local community book club. Within t
 * Testing on various browsers works as intented. The browsers I tested on are Google Chrome, Microsoft EDGE, Mozilla Firefox, and Safari.
 * Testing on different screen sizes seemed to work as intended, but I was left extremely dissapointed that my site was left with a few overflowing elements on mobile devices and large screens. Time constraints dictated that I could not address these issues but for future projects I will purchase a large screen monitor which would be integral in the development phase of the site and allow for further testing. Having tested mobile devices using dev tools which seemed to be okay, once I came to test on a real mobile device the styles I implemented did not come out as I planned. Overall I was left dissapointed with the outcome but it has made me more aware of what is required for a completely successful website.
 ### Validator Testing
-* When passing through the official W3C validator, no errors were returned for both HTML and CSS.
+* When passing through the official W3C validator, no errors were returned within HTML but a warning message was recieved as I did not include a header on line 32 within index.html. I was not aware that this is best working practise and due to time constraints I couldnt go back and amend it, this would be something I would address in future projects.
+![Image of the warning within the W3C validator](assets/images/warning-message.png)
+* When passing through the official W3C validator, no errors were returned within CSS.
+![Image of no errors within the W3C validator](assets/images/css-validator.png.png)
 
 ### Unfixed Bugs
 * Time constraits restricted me for developing my site further, so if I was to attempt this project again I would allow myself much more time to spend making things much cleaner for the user.
-* 
+* The footer caused a lot of issues throughout my project as I did not realise I had put the element outside of the body element and it took me a while to realise I had done so. This is due to my lack of experience but something that was corrected.
+
+## Deployment
+* This project was deployed to GitHub while being developed within GitPod. The steps to deploy are as follows:
+    * Within the GitHub repository, select Settings.
+    * Once in the Settings, select the Pages tab.
+    * Under source, select the branch called none and change this selection to main.
+    * The page should automatically refresh and the website link is then available.
+
+The link is available here - https://gbartlewski.github.io/portfolio-project1/
+
+## Credits
+#### Code
+* CodeInstitute Full Stack Developer Course
+* YouTube channel Traversy Media
+#### Content
+* Icons used within the navigation bar were taken from https://fontawesome.com
+#### Media
+* All images were taken from https://www.pexels.com/
